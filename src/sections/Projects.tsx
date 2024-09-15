@@ -8,6 +8,8 @@ import { myProjects } from '../constants/index.js';
 import CanvasLoader from '../components/CanvasLoader.tsx';
 import DemoComputer from '../components/DemoComputer.tsx';
 
+// blender website
+
 const projectCount = myProjects.length;
 
 const Projects = () => {
