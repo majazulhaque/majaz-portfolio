@@ -75,8 +75,8 @@ const Contact: React.FC  = () => {
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+      <div className="relative min-h-screen h-[100vh] flex items-center justify-center flex-col">
+        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen h-[100vh] w-full" />
 
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
@@ -85,7 +85,7 @@ const Contact: React.FC  = () => {
             life, I’m here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-10 flex flex-col space-y-4 sm:mt-2">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-2 flex flex-col space-y-4 max-sm:mt-2">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
