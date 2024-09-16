@@ -8,18 +8,24 @@ const Footer = () => {
         </div>
   
         <div className="flex gap-3">
-          <div className="social-icon">
+          <a href="https://github.com/majazulhaque" target="_blank" className="social-icon">
             <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
+          </a>
+          <a href="linkedin.com/in/majaz-ul-haque-683b1b239" target="_blank" className="social-icon">
+            <img src="/assets/linkedIn.png" alt="linkedin" className="w-1/3 h-1/3" />
+          </a>
+          <a href="https://www.geeksforgeeks.org/user/majazulhaque/" target="_blank" className="social-icon">
+            <img src="/assets/gfg.png" alt="gfg" className="w-1/2 h-1/2" />
+          </a>
+          <a href="https://x.com/imsharzel" target="_blank" className="social-icon">
             <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
+          </a>
+          <a href="https://www.instagram.com/imsharzel/" target="_blank" className="social-icon">
             <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-          </div>
+          </a>
         </div>
   
-        <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+        <p className="text-white-500">© 2024 Majaz-ul Haque. All rights reserved.</p>
       </footer>
     );
   };
