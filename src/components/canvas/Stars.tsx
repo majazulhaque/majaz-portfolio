@@ -9,13 +9,13 @@ type StarsProps = {
 };
 
 const Stars = (props:StarsProps) => {
-  const ref = useRef<any>();
+  const ref = useRef<any>(null);
   const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
 
-  useFrame((state, delta) => {
+  useFrame(( delta) => {
     if(ref.current){
-    ref.current.rotation.x -= delta / 10;
-    ref.current.rotation.y -= delta / 15;
+    ref.current.rotation.x -= delta as any / 10;
+    ref.current.rotation.y -= delta as any / 15;
     }
   });
 
