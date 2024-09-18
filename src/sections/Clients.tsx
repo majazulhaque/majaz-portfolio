@@ -77,7 +77,7 @@ const Clients = () => {
   return (
     <section className="c-space my-20">
       {alert.show && <Alert {...alert} />}
-      <h3 className="head-text">Hear from My Clients</h3>
+      <h3 className="head-text">Reviews</h3>
       {!showModal ? (
         <div className="relative bg-terminal bg-cover bg-center rounded-2xl w-full h-[50vh] flex flex-col items-center justify-center mt-10 sm:mt-20 px-5 overflow-hidden">
         <p className="text-white/60 text-center text-lg">
