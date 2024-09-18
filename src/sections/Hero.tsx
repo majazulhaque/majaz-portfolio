@@ -32,7 +32,22 @@ const Hero: React.FC = () => {
   const sizes: Sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative" id="home">
+    <section
+      className="min-h-screen w-full flex flex-col relative"
+      id="home"
+    >
+      <img
+        src="/assets/hero-star.png"
+        alt="hero-star"
+        className="absolute inset-0 top-0 left-0 right-0 z-[-1] mx-0"
+        style={{width:"100%", height:"100vh", objectFit:"cover"}}
+      />
+      <img
+        src="/assets/hero-circle.png"
+        alt="hero-circle"
+        className=" absolute inset-0 top-0 left-[50%] right-auto z-[-1] mx-0"
+        style={{width:"auto", height:"90vh", objectFit:"cover",transform:"translateX(-50%)"}}
+      />
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Majaz <span className="waving-hand">👋</span>

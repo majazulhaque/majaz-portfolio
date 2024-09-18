@@ -1,4 +1,5 @@
 
+import StarsCanvas from './components/canvas/Stars'
 import About from './sections/About'
 import Clients from './sections/Clients'
 import Contact from './sections/Contact'
@@ -11,7 +12,7 @@ import WorkExperience from './sections/WorkExperience'
 
 const App = () => {
   return (
-    <main className='max-w-7xl mx-auto'>
+    <main className='max-w-full mx-auto'>
       <Navbar/>
       <Hero/>
       <About/>
@@ -21,6 +22,7 @@ const App = () => {
       <Clients />
       <Contact/>
       <Footer/>
+      <StarsCanvas/>
     </main>
   )
 }

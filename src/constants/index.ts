@@ -1,19 +1,18 @@
 import {
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    threejs,
-  } from "../assets/index";
-
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  threejs,
+} from "../assets/index";
 
 export const navLinks = [
   {
@@ -75,11 +74,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "BharatPod - AI Podcast Platform",
+    desc: "BharatPod is a Software-as-a-Service platform that provides podcasting services using openAI. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate podcasts in multiple languages from a single text input.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, BharatPod is designed for optimal performance and scalability.",
+    href: "https://bharat-pod-ku6n.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -112,13 +111,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "SyncSpace - Real-Time meeting app",
+    desc: "SyncSpace is a powerful collaborative app that elevates the capabilities of real-time video meetings. With multiple features like live streams, It supports multiple collaborators simultaneously, ensuring that every realtime video meeting is seamless.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "With SyncSpace, users can experience the future of collaboration, where multiple contributors meet together in real time without any lag, by using the power of video conferencing.",
+    href: "https://sync-space-weld.vercel.app/",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "https://sync-space-weld.vercel.app/icons/logo.svg",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -128,7 +127,7 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "Next.js",
         path: "/assets/react.svg",
       },
       {
@@ -149,95 +148,21 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "ProVision - iphone 15 pro landing page",
+    desc: "The iPhone 15 Pro is a groundbreaking smartphone that elevates performance, design, and user experience. It features an advanced A17 chip, stunning ProMotion display, and superior camera system.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "Built with innovation at its core, the iPhone 15 Pro integrates cutting-edge technology like a 120Hz OLED display, enhanced photography with ProRAW, and improved battery life. Experience seamless performance with iOS, leveraging powerful hardware & software synergy.",
+    href: "https://pro-vision-i-phone.vercel.app/",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "https://pro-vision-i-phone.vercel.app/assets/images/apple.svg",
     logoStyle: {
-      backgroundColor: "#60f5a1",
+      backgroundColor: "#000000",
       background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+        "linear-gradient(0deg, #00000050, #00000050), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
       border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+      boxShadow: "0px 0px 60px 0px rgba(0, 0, 0, 0.5)",
     },
     spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
     tags: [
       {
         id: 1,
@@ -272,9 +197,17 @@ interface Sizes {
   cubePosition: [number, number, number];
 }
 
-export const calculateSizes = (isSmall: boolean, isMobile: boolean, isTablet: boolean):Sizes => {
+export const calculateSizes = (
+  isSmall: boolean,
+  isMobile: boolean,
+  isTablet: boolean
+): Sizes => {
   return {
-    deskScale: isSmall ? [0.05, 0.05, 0.05] : isMobile ? [0.06, 0.06, 0.06] : [0.065, 0.065, 0.065],
+    deskScale: isSmall
+      ? [0.05, 0.05, 0.05]
+      : isMobile
+      ? [0.06, 0.06, 0.06]
+      : [0.065, 0.065, 0.065],
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
@@ -310,49 +243,39 @@ export const calculateSizes = (isSmall: boolean, isMobile: boolean, isTablet: bo
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "CycleCircle",
+    pos: "Full Stack Developer",
+    duration: "2023 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "As a full-stack developer at Cyclecircle for the past year, I have continued building upon the MERN stack foundation and taken the website to an advanced level. I focus on enhancing both front-end and back-end features, improving user experience, and optimizing functionality for the company's cycling parts B2B platform.",
+    icon: "https://www.cyclecircle.one/static/media/Cycle-Circle-Logo-Orange-1.18b0a8525b53bce0ebd4.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "CycleCircle",
+    pos: "Web Developer Intern",
+    duration: "Aug-Oct,2023",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "As a web developer intern at Cyclecircle, a B2B cycling parts company, I built the website from scratch using the MERN stack. While working on both front and back-end development, I primarily focused on the frontend, designing and implementing user interfaces to enhance customer experience and streamline product navigation.",
+    icon: "https://www.cyclecircle.one/static/media/Cycle-Circle-Logo-White-1.d371c720871713f32fd9.png",
     animation: "clapping",
-  },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
   },
 ];
 
 export const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,

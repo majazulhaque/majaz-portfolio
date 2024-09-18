@@ -81,21 +81,22 @@ const Contact: React.FC = () => {
   return (
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
+      <EarthCanvas/>
 
       <div className="relative min-h-screen flex items-center justify-center xl:mt-12 flex-col-reverse lg:flex-row gap-10 overflow-hidden">
         <div className="relative w-full lg:w-1/2 h-full flex flex-col justify-center items-start p-5 lg:p-10">
           <img
             src="/assets/terminal.png"
             alt="terminal-bg"
-            className="absolute inset-0  w-full h-full opacity-50"
+            className="absolute inset-0  w-full h-full opacity-100"
           />
 
           <div className="contact-container relative z-10 max-w-lg w-full">
             <h3 className="text-4xl font-bold text-white">Let&apos;s talk</h3>
-            <p className="text-lg text-gray-400 mt-3">
+            <p className="text-base text-gray-400 mt-3">
               Whether you&apos;re looking to build a new website, improve your
-              existing platform, or bring a unique project to life, I&apos;m here to
-              help.
+              existing platform, or bring a unique project to life, I&apos;m
+              here to help.
             </p>
 
             <form
@@ -111,7 +112,7 @@ const Contact: React.FC = () => {
                   value={form.name}
                   onChange={handleChange}
                   required
-                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500  "
                   placeholder="ex., John Doe"
                 />
               </label>
@@ -124,7 +125,7 @@ const Contact: React.FC = () => {
                   value={form.email}
                   onChange={handleChange}
                   required
-                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 "
                   placeholder="ex., johndoe@gmail.com"
                 />
               </label>
@@ -137,12 +138,17 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="field-input w-full px-4 py-2 bg-gray-900 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 "
                   placeholder="Share your thoughts or inquiries..."
                 />
               </label>
 
-              <button className="field-btn w-full bg-blue-600 text-white py-3 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-500 transition duration-200 disabled:opacity-50" type="submit" disabled={loading}>
+              <button
+                className="field-btn w-full bg-blue-200 text-white py-3 rounded-md flex justify-center items-center space-x-2 hover:bg-blue-500 transition duration-200 disabled:opacity-50 "
+                type="submit"
+                disabled={loading}
+                style={{boxShadow:"0 8px 8px 1px rgba(0,0,0,0.3)"}}
+              >
                 {loading ? "Sending..." : "Send Message"}
 
                 <img
