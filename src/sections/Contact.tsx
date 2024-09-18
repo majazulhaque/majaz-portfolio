@@ -81,9 +81,12 @@ const Contact: React.FC = () => {
   return (
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
+      <div className="w-full h-[40vh] sm:h-[50vh] lg:hidden">
       <EarthCanvas/>
+      </div>
+      
 
-      <div className="relative min-h-screen flex items-center justify-center xl:mt-12 flex-col-reverse lg:flex-row gap-10 overflow-hidden">
+      <div className="relative sm:min-h-screen flex items-center justify-center xl:mt-12 flex-col-reverse lg:flex-row sm:gap-10 overflow-hidden">
         <div className="relative w-full lg:w-1/2 h-full flex flex-col justify-center items-start p-5 lg:p-10">
           <img
             src="/assets/terminal.png"
@@ -102,7 +105,7 @@ const Contact: React.FC = () => {
             <form
               ref={formRef}
               onSubmit={handleSubmit}
-              className="mt-8 flex flex-col space-y-4"
+              className="sm:mt-8 mt-4 flex flex-col space-y-4"
             >
               <label className="space-y-1">
                 <span className="field-label text-gray-300">Full Name</span>
@@ -160,7 +163,7 @@ const Contact: React.FC = () => {
             </form>
           </div>
         </div>
-        <div className="flex-1 w-full h-[350px] md:h-[550px]">
+        <div className="flex-1 w-full h-[350px] lg:h-[550px] hidden lg:flex">
           <EarthCanvas />
         </div>
       </div>

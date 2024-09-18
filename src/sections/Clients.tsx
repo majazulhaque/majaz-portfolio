@@ -44,6 +44,7 @@ const Clients = () => {
       .then(
         () => {
           setLoading(false);
+          closeModal();
           showAlert({
             show: true,
             text: "Thank you for your review😃. Your review will be consider soon...",

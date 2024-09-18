@@ -141,7 +141,7 @@ body {
 
   /* contact section */
   .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 max-sm:mt-[50px] px-5 mt-[75px];
+    @apply max-w-xl relative z-10 pb-4 sm:px-10 max-sm:mt-[50px] px-5 mt-[75px];
   }
 
   .field-label {
